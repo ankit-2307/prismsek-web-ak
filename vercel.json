@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_APP_NAME": "prismsek"
+  },
+  "regions": ["iad1"],
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 60
+    }
+  }
+}
